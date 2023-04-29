@@ -7,8 +7,6 @@ if not exist "urls.txt" (
 )
 
 set i=0
-
-set i=0
 for /f "usebackq delims=" %%a in ("urls.txt") do (
     set line=%%a
     set "line=!line:~0,1!"
