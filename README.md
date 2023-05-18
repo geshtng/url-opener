@@ -10,12 +10,33 @@ Open `urls.txt` and insert your favorite websites!
 Just open `urlop.bat`
 
 ### Linux
-In case doesn't work for the first try, use this command:
 ```bash
-sudo chmod +x urlop.sh
+# In case does not work on the first try, use this command:
+$ sudo chmod +x urlop.sh
+
+# Then open using this command:
+$ ./urlop.sh
 ```
 
-Then open using this command:
+### Mac OS
+You need to change the code base on your browser that you need. </br>
+I use Safari as an example. If you want to switch to another browser, you can follow these steps:
+
+1. Open `urlop.sh` using your text editor.
+2. On line 12, change **"Safari"** to your browser. Example:
+    ```bash
+    open -a "Safari" $line
+    ```
+3. Save and its ready to use.
+
+
 ```bash
-./urlop.sh
+# In case does not work on the first try, use this command:
+$ sudo chmod +x urlop.sh
+
+# Then open using this command:
+$ ./urlop.sh
 ```
+
+## Contribution
+Any suggest or something wrong? Just create an issue.

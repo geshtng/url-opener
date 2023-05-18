@@ -13,10 +13,6 @@ for /f "usebackq delims=" %%a in ("urls.txt") do (
     if "!line!" neq "#" (
         set /a i+=1
         set "url[!i!]=%%a"
+        start "" "!url[!i!]!"
     )
-)
-
-for /l %%i in (1,1,%i%) do (
-    set url=!url[%%i]!
-    start "" "!url!"
 )

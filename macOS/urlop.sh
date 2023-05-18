@@ -9,6 +9,6 @@ fi
 while read line
 do
     if [[ ! "$line" =~ ^#.*$ ]]; then
-        xdg-open "$line"
+        open -a "Google Chrome" $line
     fi
 done < "urls.txt"
