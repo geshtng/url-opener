@@ -9,6 +9,6 @@ fi
 while read line
 do
     if [[ ! "$line" =~ ^#.*$ ]]; then
-        open -a "Google Chrome" $line
+        open -a "Safari" $line
     fi
 done < "urls.txt"

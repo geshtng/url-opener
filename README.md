@@ -25,7 +25,7 @@ I use Safari as an example. If you want to switch to another browser, you can fo
 1. Open `urlop.sh` using your text editor.
 2. On line 12, change **"Safari"** to your browser. Example:
     ```bash
-    open -a "Safari" $line
+    open -a "Google Chrome" $line
     ```
 3. Save and its ready to use.
 
